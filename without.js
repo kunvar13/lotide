@@ -22,4 +22,4 @@ const without = function(array1, array2) {
 console.log((without([1, 2, 3], [1]), [2,3])); // => [2, 3]
 console.log((without(["1", "2", "3"], [1, 2, "3"]),["1","2"])); // => ["1", "2"]
 
-// test case to be added
+// Need to add test case
