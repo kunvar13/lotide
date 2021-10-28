@@ -26,7 +26,7 @@ const letterToFind = function(sentence) {
   for (let i = 0; i < sentence.length; i++) {
     kal = sentence[i];
     for (let j = 0; j < sentence.length; j++) {
-      if (kal === sentence[j]) {
+      if (kal === sentence[j] && kal !== " ") {
         result[sentence[j]] = true;
       }
       
