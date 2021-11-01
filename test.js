@@ -1,32 +1,20 @@
-const mode = function(arr) {
-  let num = 0;
-  let modObj = {};
-  let kal = '';
-  //const arr1 = arr.sort();
-  const arr1 = arr;
-  //console.log(arr1);
-  //let kal1 = arr1[0];
-  for (let i = 0; i < arr1.length; i++) {
-    //if (arr1[i] === arr1[i + 1]) {
-    if (!modObj[arr1[i]]) {
-      modObj[arr1[i]] = 1;
+const findSpace = function(name1) {
+  let spaceObj = {num: 0, num1: 0, val: false};
+  let kal = 1;
+  for (let i = 0; i < name1.length; i++) {
+    if (name1[i] === " " && kal === 1) {
+      spaceObj.num = i;
+      spaceObj.val = true;
+      kal--;
+
+    } if (name1[i] === " " && i > spaceObj.num) {
+      spaceObj.num1 = i;
     } else {
-      modObj[arr1[i]] += 1;
+      false;
     }
   }
-    
-  
-  console.log(modObj);
-  //num = modObj[0];
-  //console.log(num);
-  for (let i in modObj) {
-    if (modObj[i] >  num) {
-      num = modObj[i];
-      kal = i;
-    }
-  }
-  return Number(kal);
+  //console.log(spaceObj);
+  return spaceObj;
 };
 
-console.log(mode([1,5,2,6,3,5]));
-/* IMPLEMENT ME */
+console.log(findSpace("D r 3"));
