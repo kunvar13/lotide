@@ -7,11 +7,11 @@ const countOnly = require('./countOnly');
 
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  takeuntil: takeUntil,
-  without: without,
-  countOnly: countOnly
+  head,
+  tail,
+  middle,
+  takeUntil,
+  without,
+  countOnly
 
 };
