@@ -19,7 +19,9 @@ const without = function(array1, array2) {
   //return array1;
 };
 
-console.log((without([1, 2, 3], [1]), [2,3])); // => [2, 3]
-console.log((without(["1", "2", "3"], [1, 2, "3"]),["1","2"])); // => ["1", "2"]
+//console.log((without([1, 2, 3], [1]), [2,3])); // => [2, 3]
+//console.log((without(["1", "2", "3"], [1, 2, "3"]),["1","2"])); // => ["1", "2"]
+
+module.exports = without;
 
 // Need to add test case
