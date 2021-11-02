@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@kunvar13/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide project",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/kunvar13/lotide.git"
   },
-  "author": "",
+  "author": "Kalpesh Kunvar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/kunvar13/lotide/issues"

@@ -1,4 +1,4 @@
-const tittleCase = function(arr1) {
+const titleCase = function(arr1) {
   let arr = arr1.toLowerCase();
   let num1 = " ";
   let kal = [];
@@ -22,5 +22,5 @@ const tittleCase = function(arr1) {
 
   return num1.trim();
 };
-
-console.log(tittleCase("i r cool"));
+module.exports = titleCase;
+console.log(titleCase("i r cool"));
